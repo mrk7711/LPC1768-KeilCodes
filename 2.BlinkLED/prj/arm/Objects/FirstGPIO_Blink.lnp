@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\lpc17xx_clkpwr.o"
+".\objects\lpc17xx_gpio.o"
+".\objects\lpc17xx_pinsel.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--strict --scatter ".\Objects\FirstGPIO_Blink.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\FirstGPIO_Blink.map" -o .\Objects\FirstGPIO_Blink.axf

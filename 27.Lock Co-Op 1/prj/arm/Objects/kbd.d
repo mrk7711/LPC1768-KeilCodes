@@ -1,0 +1,13 @@
+.\objects\kbd.o: ..\..\src\kbd.c
+.\objects\kbd.o: ..\..\inc\KBD.h
+.\objects\kbd.o: g:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\kbd.o: ..\..\Drivers\include\lpc17xx_gpio.h
+.\objects\kbd.o: g:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h
+.\objects\kbd.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h
+.\objects\kbd.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+.\objects\kbd.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+.\objects\kbd.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+.\objects\kbd.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+.\objects\kbd.o: g:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h
+.\objects\kbd.o: ..\..\Drivers\include\lpc_types.h
+.\objects\kbd.o: ..\..\Drivers\include\lpc17xx_pinsel.h

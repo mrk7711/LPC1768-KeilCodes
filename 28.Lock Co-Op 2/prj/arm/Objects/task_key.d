@@ -1,0 +1,15 @@
+.\objects\task_key.o: ..\..\src\Task_Key.c
+.\objects\task_key.o: ..\..\inc\Task_Key.h
+.\objects\task_key.o: ..\..\inc\TaskHandle.h
+.\objects\task_key.o: g:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\task_key.o: ..\..\inc\kbd.h
+.\objects\task_key.o: ..\..\inc\task_Refresh.h
+.\objects\task_key.o: ..\..\Drivers\include\lpc17xx_gpio.h
+.\objects\task_key.o: g:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h
+.\objects\task_key.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h
+.\objects\task_key.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+.\objects\task_key.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+.\objects\task_key.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+.\objects\task_key.o: g:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+.\objects\task_key.o: g:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h
+.\objects\task_key.o: ..\..\Drivers\include\lpc_types.h

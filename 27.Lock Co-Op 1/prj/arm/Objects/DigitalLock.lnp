@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\objects\hardware.o"
+".\objects\main.o"
+".\objects\taskhandle.o"
+".\objects\taskhandle_port.o"
+".\objects\kbd.o"
+".\objects\task_refresh.o"
+".\objects\task_key.o"
+".\objects\lpc17xx_clkpwr.o"
+".\objects\lpc17xx_gpio.o"
+".\objects\lpc17xx_nvic.o"
+".\objects\lpc17xx_pinsel.o"
+".\objects\lpc17xx_rit.o"
+".\objects\lpc17xx_systick.o"
+".\objects\lpc17xx_uart.o"
+".\objects\lpc17xx_rtc.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--strict --scatter ".\Objects\DigitalLock.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\DigitalLock.map" -o .\Objects\DigitalLock.axf
